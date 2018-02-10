@@ -2,7 +2,7 @@
 
 个人整理的人工智能、区块链的资源
 
-### 一些AI项目
+### AI项目
 
 #### ONNX
 https://github.com/onnx/onnx
@@ -45,7 +45,7 @@ Python codes in Machine Learning, NLP, Deep Learning and Reinforcement Learning 
 
 ---
 
-### 一些NLP项目
+### NLP项目
 
 #### Oxford NLP Lectures
 
@@ -89,7 +89,7 @@ MXNet is also more than a deep learning project. It is also a collection of blue
 
 ---
 
-### 一些课程
+### 课程
 
 #### stat212b
 
@@ -111,7 +111,7 @@ Stanford Machine Learning course exercises implemented with scikit-learn
 
 ---
 
-### 一些区块链项目
+### 区块链项目
 
 #### Hyperledger
 
