@@ -109,6 +109,30 @@ https://github.com/krasserm/machine-learning-notebooks
 
 Stanford Machine Learning course exercises implemented with scikit-learn
 
+#### CMU 10703: Deep Reinforcement Learning and Control, Spring 2017
+
+https://katefvision.github.io/
+
++ Implement and experiment with existing algorithms for learning control policies guided by reinforcement, expert demonstrations or self-trials.
++ Evaluate the sample complexity, generalization and generality of these algorithms.
++ Be able to understand research papers in the field of robotic learning.
++ Try out some ideas/extensions of your own. Particular focus on incorporating true sensory signal from vision or tactile sensing, and exploring the synergy between learning from simulation versus learning from real experience.
+
+#### MIT 6.S099: Artificial General Intelligence
+
+https://agi.mit.edu/
+
+This class takes an engineering approach to exploring possible research paths toward building human-level intelligence. The lectures will introduce our current understanding of computational intelligence and ways in which strong AI could possibly be achieved, with insights from deep learning, reinforcement learning, computational neuroscience, robotics, cognitive modeling, psychology, and more. Additional topics will include AI safety and ethics. Projects will seek to build intuition about the limitations of state-of-the-art machine learning approaches and how those limitations may be overcome. The course will include several guest talks. Listeners are welcome.
+
+#### Berkeley CS 294: Deep Reinforcement Learning, Fall 2017
+
+http://rll.berkeley.edu/deeprlcourse/#syllabus
+
+
+#### Berkeley 人工智能相关课程
+
+http://bair.berkeley.edu/courses.html
+
 ---
 
 ### 区块链项目
