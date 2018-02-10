@@ -1,9 +1,6 @@
-## test
+## Research List
 
-This is a test repo.
-
-This readme file need to be modified.
-
+个人整理的人工智能、区块链的资源
 
 ### 一些AI项目
 
@@ -106,6 +103,12 @@ https://github.com/sjchoi86/Deep-Learning-101
 
 Deep Learning Tutorials These tutorials are for deep learning beginners which have been used in a six week Deep Learning and Computer Vision course. Hope these to be helpful for understanding what deep learning is and how it can be applied to various fields including computer vision, robotics, natural language processings, and so forth.
 
+#### Stanford Machine Learning course exercises
+
+https://github.com/krasserm/machine-learning-notebooks
+
+Stanford Machine Learning course exercises implemented with scikit-learn
+
 ---
 
 ### 一些区块链项目
@@ -125,6 +128,3 @@ https://github.com/yeasy/blockchain_guide
 
 ---
 
-https://github.com/krasserm/machine-learning-notebooks
-
-Stanford Machine Learning course exercises implemented with scikit-learn
