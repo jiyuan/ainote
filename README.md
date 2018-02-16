@@ -1,4 +1,4 @@
-## Research List
+## Resource List
 
 个人整理的人工智能、区块链的资源
 
@@ -43,6 +43,46 @@ https://github.com/RubensZimbres/Repo-2017
 
 Python codes in Machine Learning, NLP, Deep Learning and Reinforcement Learning with Keras and Theano
 
+#### Microsoft Machine Learning for Apache Spark
+
+https://github.com/Azure/mmlspark
+
+MMLSpark provides a number of deep learning and data science tools for Apache Spark, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK) and OpenCV, enabling you to quickly create powerful, highly-scalable predictive and analytical models for large image and text datasets.
+
+#### Lucid
+
+https://github.com/tensorflow/lucid
+
+Lucid is a collection of infrastructure and tools for research in neural network interpretability.
+
+#### The DeepMind Control Suite and Package
+
+https://github.com/deepmind/dm_control
+
+This package contains:
+- A set of Python Reinforcement Learning environments powered by the MuJoCo physics engine. See the suite subdirectory.
+- Libraries that provide Python bindings to the MuJoCo physics engine.
+
+#### MXNet
+
+https://github.com/apache/incubator-mxnet
+
+Apache MXNet (incubating) is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scaling effectively to multiple GPUs and multiple machines.
+
+MXNet is also more than a deep learning project. It is also a collection of blue prints and guidelines for building deep learning systems, and interesting insights of DL systems for hackers.
+
+#### Sonnet
+
+https://github.com/deepmind/sonnet
+
+Sonnet is a library built on top of TensorFlow for building complex neural networks.
+
+#### edward
+
+https://github.com/blei-lab/edward
+
+Edward is a Python library for probabilistic modeling, inference, and criticism. It is a testbed for fast experimentation and research with probabilistic models, ranging from classical hierarchical models on small data sets to complex deep probabilistic models on large data sets. Edward fuses three fields: Bayesian statistics and machine learning, deep learning, and probabilistic programming.
+
 ---
 
 ### NLP项目
@@ -79,17 +119,20 @@ https://github.com/nltk/nltk
 
 NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.
 
-#### MXNet
+#### ParlAI
 
-https://github.com/apache/incubator-mxnet
+https://github.com/facebookresearch/ParlAI
 
-Apache MXNet (incubating) is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity. At its core, MXNet contains a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on the fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. MXNet is portable and lightweight, scaling effectively to multiple GPUs and multiple machines.
+ParlAI (pronounced “par-lay”) is a framework for dialog AI research, implemented in Python.
 
-MXNet is also more than a deep learning project. It is also a collection of blue prints and guidelines for building deep learning systems, and interesting insights of DL systems for hackers.
+Its goal is to provide researchers:
+- a unified framework for sharing, training and testing dialog models
+- many popular datasets available all in one place, with the ability to multi-task over them
+- seamless integration of Amazon Mechanical Turk for data collection and human evaluation
 
 ---
 
-### 课程
+### 学习资源
 
 #### stat212b
 
@@ -133,6 +176,33 @@ http://rll.berkeley.edu/deeprlcourse/#syllabus
 
 http://bair.berkeley.edu/courses.html
 
+#### 深度学习论文整理
+
+https://github.com/terryum/awesome-deep-learning-papers
+
+Awesome - Most Cited Deep Learning Papers
+
+A curated list of the most cited deep learning papers (since 2012)
+
+We believe that there exist classic deep learning papers which are worth reading regardless of their application domain. Rather than providing overwhelming amount of papers, We would like to provide a curated list of the awesome deep learning papers which are considered as must-reads in certain research domains.
+
+#### Deep Learning Papers Reading Roadmap
+
+https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+
+If you are a newcomer to the Deep Learning area, the first question you may have is "Which paper should I start reading from?"
+
+Here is a reading roadmap of Deep Learning papers!
+
+#### Tensorflow-101
+
+https://github.com/sjchoi86/Tensorflow-101
+
+Tensorflow Tutorials using Jupyter Notebook
+
+TensorFlow tutorials written in Python (of course) with Jupyter Notebook. Tried to explain as kindly as possible, as these tutorials are intended for TensorFlow beginners. Hope these tutorials to be a useful recipe book for your deep learning projects. Enjoy coding! :)
+
+
 ---
 
 ### 区块链项目
@@ -149,6 +219,48 @@ https://github.com/yeasy/blockchain_guide
 
 本书希望可以探索区块链概念的来龙去脉，剥茧抽丝，剖析关键技术原理，同时讲解实践应用。在开发相关开源分布式账本平台（如超级账本），以及设计基于区块链的企业方案过程中，笔者积累了一些实践经验，也通过本书一并分享出来，希望能推动区块链技术的早日成熟和更多应用场景的出现。
 
+---
+
+### 量化交易
+
+#### Deep-Trading
+
+https://github.com/Rachnog/Deep-Trading
+
+Algorithmic trading with deep learning experiments. Now released part one - simple time series forecasting. I plan to implement more sophisticated algorithms and their ensembles with different features, check their performance, train a trading strategy and go live.
+
+#### Kungfu Master Trading System
+
+https://github.com/taurusai/kungfu
+
+功夫是 Taurus.ai 团队专为量化交易者设计的低延迟交易执行系统。功夫想要解决两个核心问题：
+- 交易数据实时存储 - 为了追求交易速度，很多情况下交易者不得不放弃存储功能以换取更高的执行速度，这给盘后分析带来很大困难，使分析缺乏必要的数据支持。
+- 交易延迟分析及优化 - 交易者缺乏测量交易延迟的标准化工具，关于延迟的统计数据往往只能凭感觉估算，在缺乏可靠的数据采集手段的情况下，优化工作变得更加艰难。
+
+#### stock market reinforcement learning
+
+https://github.com/kh-kim/stock_market_reinforcement_learning
+
+This project provides a general environment for stock market trading simulation using OpenAI Gym. Training data is a close price of each day, which is downloaded from Google Finance, but you can apply any data if you want. Also, it contains simple Deep Q-learning and Policy Gradient from Karpathy's post. http://karpathy.github.io/2016/05/31/rl/
+
+#### awesome-quant
+
+https://github.com/wilsonfreitas/awesome-quant
+
+A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
+
+#### vnpy
+
+https://github.com/vnpy/vnpy
+
+vn.py是基于Python的开源量化交易程序开发框架，起源于国内私募的自主量化交易系统。2015年初项目启动时只是单纯的交易API接口的Python封装。随着业内关注度的上升和社区不断的贡献，目前已经成长为一套全功能的交易程序开发框架，用户群体也日渐多样化，包括私募基金、券商自营和资管、期货资管和子公司、高校研究机构和专业个人投资者等。
 
 ---
 
+### 数学资源
+
+#### Awesome Math
+
+https://github.com/rossant/awesome-math
+
+A curated list of awesome mathematics resources.
