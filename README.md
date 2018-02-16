@@ -2,66 +2,17 @@
 
 个人整理的人工智能、区块链的资源
 
-### AI项目
+---
+
+### 一、AI项目
 
 #### ONNX
+
 https://github.com/onnx/onnx
 
 Open Neural Network Exchange (ONNX) is the first step toward an open ecosystem that empowers AI developers to choose the right tools as their project evolves. ONNX provides an open source format for AI models. It defines an extensible computation graph model, as well as definitions of built-in operators and standard data types. Initially we focus on the capabilities needed for inferencing (evaluation).
 
 Caffe2, PyTorch, Microsoft Cognitive Toolkit, Apache MXNet and other tools are developing ONNX support. Enabling interoperability between different frameworks and streamlining the path from research to production will increase the speed of innovation in the AI community. We are an early stage and we invite the community to submit feedback and help us further evolve ONNX.
-
-#### MXNet Model Server
-
-https://github.com/awslabs/mxnet-model-server
-
-Apache MXNet Model Server (MMS) is a flexible and easy to use tool for serving deep learning models exported from MXNet or the Open Neural Network Exchange (ONNX).
-
-Use the MMS Server CLI, or the pre-configured Docker images, to start a service that sets up HTTP endpoints to handle model inference requests.
-
-#### Featuretools
-
-https://github.com/Featuretools/featuretools
-
-Featuretools is a python library for automated feature engineering.
-
-#### CNTK
-
-https://github.com/Microsoft/CNTK
-
-Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit
-
-#### BigDL
-
-https://github.com/intel-analytics/BigDL
-
-BigDL: Distributed Deep Learning on Apache Spark
-
-#### Python Codes in Data Science
-
-https://github.com/RubensZimbres/Repo-2017
-
-Python codes in Machine Learning, NLP, Deep Learning and Reinforcement Learning with Keras and Theano
-
-#### Microsoft Machine Learning for Apache Spark
-
-https://github.com/Azure/mmlspark
-
-MMLSpark provides a number of deep learning and data science tools for Apache Spark, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK) and OpenCV, enabling you to quickly create powerful, highly-scalable predictive and analytical models for large image and text datasets.
-
-#### Lucid
-
-https://github.com/tensorflow/lucid
-
-Lucid is a collection of infrastructure and tools for research in neural network interpretability.
-
-#### The DeepMind Control Suite and Package
-
-https://github.com/deepmind/dm_control
-
-This package contains:
-- A set of Python Reinforcement Learning environments powered by the MuJoCo physics engine. See the suite subdirectory.
-- Libraries that provide Python bindings to the MuJoCo physics engine.
 
 #### MXNet
 
@@ -71,11 +22,51 @@ Apache MXNet (incubating) is a deep learning framework designed for both efficie
 
 MXNet is also more than a deep learning project. It is also a collection of blue prints and guidelines for building deep learning systems, and interesting insights of DL systems for hackers.
 
+#### MXNet Model Server
+
+https://github.com/awslabs/mxnet-model-server
+
+Apache MXNet Model Server (MMS) is a flexible and easy to use tool for serving deep learning models exported from MXNet or the Open Neural Network Exchange (ONNX).
+
+Use the MMS Server CLI, or the pre-configured Docker images, to start a service that sets up HTTP endpoints to handle model inference requests.
+
+#### Lucid
+
+https://github.com/tensorflow/lucid
+
+Lucid is a collection of infrastructure and tools for research in neural network interpretability.
+
 #### Sonnet
 
 https://github.com/deepmind/sonnet
 
 Sonnet is a library built on top of TensorFlow for building complex neural networks.
+
+#### The DeepMind Control Suite and Package
+
+https://github.com/deepmind/dm_control
+
+This package contains:
+- A set of Python Reinforcement Learning environments powered by the MuJoCo physics engine. See the suite subdirectory.
+- Libraries that provide Python bindings to the MuJoCo physics engine.
+
+#### CNTK
+
+https://github.com/Microsoft/CNTK
+
+Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit
+
+#### Microsoft Machine Learning for Apache Spark
+
+https://github.com/Azure/mmlspark
+
+MMLSpark provides a number of deep learning and data science tools for Apache Spark, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK) and OpenCV, enabling you to quickly create powerful, highly-scalable predictive and analytical models for large image and text datasets.
+
+#### BigDL
+
+https://github.com/intel-analytics/BigDL
+
+BigDL: Distributed Deep Learning on Apache Spark
 
 #### edward
 
@@ -83,27 +74,21 @@ https://github.com/blei-lab/edward
 
 Edward is a Python library for probabilistic modeling, inference, and criticism. It is a testbed for fast experimentation and research with probabilistic models, ranging from classical hierarchical models on small data sets to complex deep probabilistic models on large data sets. Edward fuses three fields: Bayesian statistics and machine learning, deep learning, and probabilistic programming.
 
+#### Python Codes in Data Science
+
+https://github.com/RubensZimbres/Repo-2017
+
+Python codes in Machine Learning, NLP, Deep Learning and Reinforcement Learning with Keras and Theano
+
+#### Featuretools
+
+https://github.com/Featuretools/featuretools
+
+Featuretools is a python library for automated feature engineering.
+
 ---
 
-### NLP项目
-
-#### Oxford NLP Lectures
-
-https://github.com/oxford-cs-deepnlp-2017/lectures
-
-This repository contains the lecture slides and course description for the Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford.
-
-#### DeepQA
-
-https://github.com/allenai/deep_qa
-
-DeepQA is a library for doing high-level NLP tasks with deep learning, particularly focused on various kinds of question answering. DeepQA is built on top of Keras and TensorFlow, and can be thought of as an interface to these systems that makes NLP easier.
-
-#### Deep - NLP
-
-https://github.com/siddk/deep-nlp
-
-This repository contains Tensorflow implementations of various deep learning models, with a focus on problems in Natural Language Processing. Each individual subdirectory is self-contained, addressing one specific model.
+### 二、NLP项目
 
 #### baseline
 
@@ -130,9 +115,27 @@ Its goal is to provide researchers:
 - many popular datasets available all in one place, with the ability to multi-task over them
 - seamless integration of Amazon Mechanical Turk for data collection and human evaluation
 
+#### DeepQA
+
+https://github.com/allenai/deep_qa
+
+DeepQA is a library for doing high-level NLP tasks with deep learning, particularly focused on various kinds of question answering. DeepQA is built on top of Keras and TensorFlow, and can be thought of as an interface to these systems that makes NLP easier.
+
+#### Deep - NLP
+
+https://github.com/siddk/deep-nlp
+
+This repository contains Tensorflow implementations of various deep learning models, with a focus on problems in Natural Language Processing. Each individual subdirectory is self-contained, addressing one specific model.
+
 ---
 
-### 学习资源
+### 三、学习资源
+
+#### Oxford NLP Lectures
+
+https://github.com/oxford-cs-deepnlp-2017/lectures
+
+This repository contains the lecture slides and course description for the Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford.
 
 #### stat212b
 
@@ -167,14 +170,29 @@ https://agi.mit.edu/
 
 This class takes an engineering approach to exploring possible research paths toward building human-level intelligence. The lectures will introduce our current understanding of computational intelligence and ways in which strong AI could possibly be achieved, with insights from deep learning, reinforcement learning, computational neuroscience, robotics, cognitive modeling, psychology, and more. Additional topics will include AI safety and ethics. Projects will seek to build intuition about the limitations of state-of-the-art machine learning approaches and how those limitations may be overcome. The course will include several guest talks. Listeners are welcome.
 
+#### Berkeley 人工智能相关课程
+
+http://bair.berkeley.edu/courses.html
+
 #### Berkeley CS 294: Deep Reinforcement Learning, Fall 2017
 
 http://rll.berkeley.edu/deeprlcourse/#syllabus
 
+#### Tensorflow-101
 
-#### Berkeley 人工智能相关课程
+https://github.com/sjchoi86/Tensorflow-101
 
-http://bair.berkeley.edu/courses.html
+Tensorflow Tutorials using Jupyter Notebook
+
+TensorFlow tutorials written in Python (of course) with Jupyter Notebook. Tried to explain as kindly as possible, as these tutorials are intended for TensorFlow beginners. Hope these tutorials to be a useful recipe book for your deep learning projects. Enjoy coding! :)
+
+#### Deep Learning Papers Reading Roadmap
+
+https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+
+If you are a newcomer to the Deep Learning area, the first question you may have is "Which paper should I start reading from?"
+
+Here is a reading roadmap of Deep Learning papers!
 
 #### 深度学习论文整理
 
@@ -186,26 +204,9 @@ A curated list of the most cited deep learning papers (since 2012)
 
 We believe that there exist classic deep learning papers which are worth reading regardless of their application domain. Rather than providing overwhelming amount of papers, We would like to provide a curated list of the awesome deep learning papers which are considered as must-reads in certain research domains.
 
-#### Deep Learning Papers Reading Roadmap
-
-https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
-
-If you are a newcomer to the Deep Learning area, the first question you may have is "Which paper should I start reading from?"
-
-Here is a reading roadmap of Deep Learning papers!
-
-#### Tensorflow-101
-
-https://github.com/sjchoi86/Tensorflow-101
-
-Tensorflow Tutorials using Jupyter Notebook
-
-TensorFlow tutorials written in Python (of course) with Jupyter Notebook. Tried to explain as kindly as possible, as these tutorials are intended for TensorFlow beginners. Hope these tutorials to be a useful recipe book for your deep learning projects. Enjoy coding! :)
-
-
 ---
 
-### 区块链项目
+### 四、区块链项目
 
 #### Hyperledger
 
@@ -221,13 +222,13 @@ https://github.com/yeasy/blockchain_guide
 
 ---
 
-### 量化交易
+### 五、量化交易
 
-#### Deep-Trading
+#### awesome-quant
 
-https://github.com/Rachnog/Deep-Trading
+https://github.com/wilsonfreitas/awesome-quant
 
-Algorithmic trading with deep learning experiments. Now released part one - simple time series forecasting. I plan to implement more sophisticated algorithms and their ensembles with different features, check their performance, train a trading strategy and go live.
+A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
 
 #### Kungfu Master Trading System
 
@@ -237,30 +238,32 @@ https://github.com/taurusai/kungfu
 - 交易数据实时存储 - 为了追求交易速度，很多情况下交易者不得不放弃存储功能以换取更高的执行速度，这给盘后分析带来很大困难，使分析缺乏必要的数据支持。
 - 交易延迟分析及优化 - 交易者缺乏测量交易延迟的标准化工具，关于延迟的统计数据往往只能凭感觉估算，在缺乏可靠的数据采集手段的情况下，优化工作变得更加艰难。
 
-#### stock market reinforcement learning
-
-https://github.com/kh-kim/stock_market_reinforcement_learning
-
-This project provides a general environment for stock market trading simulation using OpenAI Gym. Training data is a close price of each day, which is downloaded from Google Finance, but you can apply any data if you want. Also, it contains simple Deep Q-learning and Policy Gradient from Karpathy's post. http://karpathy.github.io/2016/05/31/rl/
-
-#### awesome-quant
-
-https://github.com/wilsonfreitas/awesome-quant
-
-A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
-
 #### vnpy
 
 https://github.com/vnpy/vnpy
 
 vn.py是基于Python的开源量化交易程序开发框架，起源于国内私募的自主量化交易系统。2015年初项目启动时只是单纯的交易API接口的Python封装。随着业内关注度的上升和社区不断的贡献，目前已经成长为一套全功能的交易程序开发框架，用户群体也日渐多样化，包括私募基金、券商自营和资管、期货资管和子公司、高校研究机构和专业个人投资者等。
 
+#### Deep-Trading
+
+https://github.com/Rachnog/Deep-Trading
+
+Algorithmic trading with deep learning experiments. Now released part one - simple time series forecasting. I plan to implement more sophisticated algorithms and their ensembles with different features, check their performance, train a trading strategy and go live.
+
+#### stock market reinforcement learning
+
+https://github.com/kh-kim/stock_market_reinforcement_learning
+
+This project provides a general environment for stock market trading simulation using OpenAI Gym. Training data is a close price of each day, which is downloaded from Google Finance, but you can apply any data if you want. Also, it contains simple Deep Q-learning and Policy Gradient from Karpathy's post. http://karpathy.github.io/2016/05/31/rl/
+
 ---
 
-### 数学资源
+### 六、数学资源
 
 #### Awesome Math
 
 https://github.com/rossant/awesome-math
 
 A curated list of awesome mathematics resources.
+
+---
