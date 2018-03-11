@@ -92,6 +92,17 @@ https://github.com/Featuretools/featuretools
 
 Featuretools is a python library for automated feature engineering.
 
+#### Keras中文文档
+
+https://keras.io/zh/
+
+Keras 是一个用 Python 编写的高级神经网络 API，它能够以 TensorFlow, CNTK, 或者 Theano 作为后端运行。Keras 的开发重点是支持快速的实验。能够以最小的时延把你的想法转换为实验结果，是做好研究的关键。
+
+如果你有如下需求，请选择 Keras：
+- 允许简单而快速的原型设计（用户友好，高度模块化，可扩展性）。
+- 同时支持卷积神经网络和循环神经网络，以及两者的组合。
+- 在CPU和GPU上无缝运行与切换。
+
 ---
 
 ### 二、NLP项目
