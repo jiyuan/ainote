@@ -62,6 +62,12 @@ https://github.com/Azure/mmlspark
 
 MMLSpark provides a number of deep learning and data science tools for Apache Spark, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK) and OpenCV, enabling you to quickly create powerful, highly-scalable predictive and analytical models for large image and text datasets.
 
+#### Microsoft - MMdnn
+
+https://github.com/Microsoft/MMdnn
+
+MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch and CoreML.
+
 #### BigDL
 
 https://github.com/intel-analytics/BigDL
@@ -209,6 +215,12 @@ Awesome - Most Cited Deep Learning Papers
 A curated list of the most cited deep learning papers (since 2012)
 
 We believe that there exist classic deep learning papers which are worth reading regardless of their application domain. Rather than providing overwhelming amount of papers, We would like to provide a curated list of the awesome deep learning papers which are considered as must-reads in certain research domains.
+
+#### 谷歌机器学习速成课25讲
+
+https://developers.google.cn/machine-learning/crash-course/
+
+课程的主要架构分为三个部分：机器学习概念（18讲）、机器学习工程（4讲）、机器学习在现实世界的应用示例（3讲）。
 
 ---
 
