@@ -296,3 +296,12 @@ https://github.com/rossant/awesome-math
 A curated list of awesome mathematics resources.
 
 ---
+
+### 七、自动机器学习资源
+
+#### auto-sklearn
+
+https://github.com/automl
+https://github.com/automl/auto-sklearn
+
+---
