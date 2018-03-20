@@ -295,6 +295,10 @@ https://github.com/rossant/awesome-math
 
 A curated list of awesome mathematics resources.
 
+#### 一个latex模版
+
+https://github.com/goodfeli/dlbook_notation
+
 ---
 
 ### 七、自动机器学习资源
