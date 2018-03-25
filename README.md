@@ -310,3 +310,13 @@ https://github.com/automl
 https://github.com/automl/auto-sklearn
 
 ---
+
+### 八、数据资源
+
+#### 上海交大知识图谱数据
+
+http://acemap.sjtu.edu.cn/app/AceKG/
+
+AceKG describes 114.30 million academic entities based on a consistent ontology, including 61,704,089 papers, 52,498,428 authors, 50,233 research fields, 19,843 academic institutes, 22,744 journals, 1,278 conferences and 3 special affiliations. In total, AceKG consists of 2.2 billion pieces of relationship information.
+
+---
