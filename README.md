@@ -314,6 +314,12 @@ https://github.com/automl
 
 https://github.com/automl/auto-sklearn
 
+#### Machine Learning for .NET
+
+https://github.com/dotnet/machinelearning
+
+主要学习框架
+
 ---
 
 ### 八、数据资源
