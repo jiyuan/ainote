@@ -320,6 +320,12 @@ https://github.com/dotnet/machinelearning
 
 主要学习框架
 
+#### MLPerf Reference
+
+https://github.com/mlperf/reference
+
+Reference implementations of MLPerf benchmarks
+
 ---
 
 ### 八、数据资源
