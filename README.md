@@ -193,6 +193,12 @@ https://agi.mit.edu/
 
 This class takes an engineering approach to exploring possible research paths toward building human-level intelligence. The lectures will introduce our current understanding of computational intelligence and ways in which strong AI could possibly be achieved, with insights from deep learning, reinforcement learning, computational neuroscience, robotics, cognitive modeling, psychology, and more. Additional topics will include AI safety and ethics. Projects will seek to build intuition about the limitations of state-of-the-art machine learning approaches and how those limitations may be overcome. The course will include several guest talks. Listeners are welcome.
 
+#### The Human Brain
+
+https://nancysbraintalks.mit.edu/course/9-11-the-human-brain
+
+MIT认知神经科学教授Nancy Kanwisher，放出了一大波本学期（2018年春季）MIT本科生课程人类大脑（The Human Brain）的视频，课程代号MIT 9.11。
+
 #### Berkeley 人工智能相关课程
 
 http://bair.berkeley.edu/courses.html
