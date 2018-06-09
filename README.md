@@ -348,4 +348,10 @@ http://acemap.sjtu.edu.cn/app/AceKG/
 
 AceKG describes 114.30 million academic entities based on a consistent ontology, including 61,704,089 papers, 52,498,428 authors, 50,233 research fields, 19,843 academic institutes, 22,744 journals, 1,278 conferences and 3 special affiliations. In total, AceKG consists of 2.2 billion pieces of relationship information.
 
+#### 伯克利开放驾驶视频数据集
+
+http://bdd-data.berkeley.edu/
+
+UC Berkeley 发布了迄今为止规模最大、最多样化的开放驾驶视频数据集——BDD100K。该数据集共包含 10 万个视频，BAIR 研究者在视频上采样关键帧，并为这些关键帧提供注释。此外，BAIR 还将在 CVPR 2018 自动驾驶 Workshop 上基于其数据举办三项挑战赛。
+
 ---
