@@ -245,6 +245,14 @@ https://developers.google.cn/machine-learning/crash-course/
 
 课程的主要架构分为三个部分：机器学习概念（18讲）、机器学习工程（4讲）、机器学习在现实世界的应用示例（3讲）。
 
+#### 乔治亚理工大学自然语言处理教材
+
+https://github.com/jacobeisenstein/gt-nlp-class/tree/master/notes
+
+These notes are the basis for the readings in CS4650 and CS7650 ("Natural Language") at Georgia Tech.
+
+乔治亚理工大学 Jacob Eisenstein 教授开放了自然语言处理领域的最新教材《Natural Language Processing》
+
 ---
 
 ### 四、区块链项目
