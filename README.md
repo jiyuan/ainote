@@ -150,6 +150,12 @@ https://ctwdataset.github.io/
 
 we provide details of a newly created dataset of Chinese text with about 1 million Chinese characters annotated by experts in over 30 thousand street view images. This is a challenging dataset with good diversity. It contains planar text, raised text, text in cities, text in rural areas, text under poor illumination, distant text, partially occluded text, etc. For each character in the dataset, the annotation includes its underlying character, its bounding box, and 6 attributes. The attributes indicate whether it has complex background, whether it is raised, whether it is handwritten or printed, etc.
 
+#### Kaldi Speech Recognition Toolkit
+
+https://github.com/tramphero/kaldi
+
+This is now the official location of the Kaldi project. http://kaldi-asr.org
+
 ---
 
 ### 三、学习资源
