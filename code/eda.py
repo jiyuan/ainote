@@ -49,7 +49,7 @@ print(y_df.info())
 ################################################################################
 ## Feature Generating
 
-class FeatureGenerater(object):
+class FeatureGenerator(object):
     prefix = 'fg_'
     
     def __init__(self, y_df, x_df):
@@ -57,36 +57,82 @@ class FeatureGenerater(object):
         self.features = x_df.copy()
     
     def gen(self):
+        """
+        此接口调用私有方法对数据集进行衍生，可继承
+        """
         return self.features
 
     ## the followings are the lib function for feature generating.
  
-    def _aggregating(self):
+    ## Aggregating
+    def aggregating(self):
+        """
+        aa 
+        """
+        ## Numerical features
+        ## method: aggregated and plot
+#        x_df_gb.agg({'': np.sum,
+#                     '': np.mean,
+#                     '': lambda x: np.std(x, ddof=1)})
+
+        ## Categorical features
+        ## method: pivot and plot
+        
+        ## 分类变量怎么处理？hash?
+        
+        ## Temporal features
+        ## 时间变量+分类变量可以做时间序列，这一步留到derive做
+        
+        #x_int = self.xfile.select_dtypes(include=['int'])
+        pass
+
+    ## Pivoting
+    def pivoting(self):
+        pass
+
+    ## Feature Deriving
+    def der_num_fea(self):
+        """
+        Numerical Features
+        - Binning: Rounding, Binarization, Binning
+        - Transformation: log trans, Scaling(MinMax, Standard_Z), Normalization
+        """
         #x_int = self.xfile.select_dtypes(include=['int'])
         pass
     
-    def _pivoting(self):
+    def der_cat_fea(self):
+        """
+        Categorical Features
+        - One-Hot Encoding
+        - Large Categorical Variables
+        - Feature Hashing
+        - Bin-counting
+        - LabelCount encoding
+        - Category Embedding
+        """
         pass
     
-    ## Numerical Features
-    def gen_num_features(self):
-        #x_int = self.xfile.select_dtypes(include=['int'])
+    def der_tem_fea(self):
+        """
+        Temporal Features
+        - Time Zone conversion
+        - Time binning
+        - Trendlines
+        - Closeness to major events
+        - Time differences
+        """
         pass
     
-    ## Categorical Features
-    def gen_cat_features(self):
-        pass
-    
-    ## Temporal Features
-    def gen_tem_features(self):
-        pass
-    
-    ## Spatial Features
-    def gen_spa_features(self):
+    def der_spa_fea(self):
+        """
+        Spatial Features
+        - Spatial Variables
+        - Spatial Enrichment
+        """
         pass
 
 
-class Df1FG(FeatureGenerater):
+class Df1FG(FeatureGenerator):
     def gen(self):
         pass
 
@@ -151,22 +197,51 @@ class EDA(object):
         self.key = keyvar
 
     def univariate(self, plot=False):
+        ## univariate主要看看分布，决定分箱
         #n = len(x_float.columns) + len(x_cat.columns)
         print('='*60,"\nExecute univariate analysis.")
 
         ## judge the duplication
         N = self.x_df[self.key].count()
         n = self.x_df.groupby(self.key).size().count()
-        if N > n:
+        if N > n*2:  # 2 could be changed.
             print("Dataset has duplication, there are %s entries, and %s \
 non-duplicated keys." % (N, n))
             x_df_gb = self.x_df.groupby(self.key)
             print('-'*60), print(x_df_gb.size())
             print('-'*60), print(x_df_gb.size().describe())
+            if plot:
+                sb.distplot(x_df_gb.size(), kde=False)
+                sb.plt.show()
+                
+            ## Aggregating and Pivoting
+
+            ## Numerical features
+            ## method: aggregated and plot
+            x_num = self.x_df.select_dtypes(include=['int', 'float'])
+            for icol in x_num.columns:
+                # print('-'*60), print(x_num[icol].info())
+                print(icol)
+                # x_df_gb_agg = x_df_gb[icol].agg(np.sum, np.mean, lambda x: np.std(x, ddof=1))
+                x_df_gb_agg = x_df_gb[icol].agg(np.sum, np.mean)
+                print('-'*60), print(x_df_gb_agg.info())
+    
+            ## Categorical features
+            ## method: pivot and plot
+            x_cat = self.x_df.select_dtypes(include=['category'])
+            for icol in x_cat.columns:
+                print(icol)
+                if icol != self.key:
+                    x_df_ct = pd.crosstab(x_df[self.key], x_df[icol], normalize=False)
+                    print('-'*60), print(x_df_ct)
+                    if plot:
+                        sb.heatmap(x_df_ct, annot=True, fmt=".1f")
+                        sb.plt.show()
+                
+            ## 分类变量怎么处理？hash?
             
-            x_df_gb.agg({'': np.sum,
-                         '': np.mean,
-                         '': lambda x: np.std(x, ddof=1)})
+            ## Temporal features
+            ## 时间变量+分类变量可以做时间序列，这一步留到derive做
         else:
             print("No duplication, total entries number is %s" % N)
             print('-'*60)
@@ -204,6 +279,7 @@ non-duplicated keys." % (N, n))
                     sb.plt.show()
     
     def bivariate(self, plot=False):
+        ## bivariate主要画画图，算算iv
         print("enter bivariate")
         ## 通过targetvar从y_df中提取目标变量，根据keyvar关联x_df和y_df，做二变量分
         ## 析, by boxplot
@@ -252,6 +328,7 @@ non-duplicated keys." % (N, n))
 #                sb.plt.show()
     
     def multivariate(self, plot=False):
+        ## multivariate主要画画图，看看相关性，主要为变量衍生做准备
         print("enter multivariate")
     
     
