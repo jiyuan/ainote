@@ -156,6 +156,14 @@ https://github.com/tramphero/kaldi
 
 This is now the official location of the Kaldi project. http://kaldi-asr.org
 
+#### NLP Architect by Intel® AI LAB
+
+https://github.com/NervanaSystems/nlp-architect
+
+NLP Architect by Intel AI Lab: Python library for exploring the state-of-the-art deep learning topologies and techniques for natural language processing and natural language understanding http://nlp_architect.nervanasys.com/
+
+$\alpha$
+
 ---
 
 ### 三、学习资源
