@@ -107,6 +107,12 @@ Keras 是一个用 Python 编写的高级神经网络 API，它能够以 TensorF
 
 ### 二、NLP项目
 
+#### Tracking Progress in Natural Language Processing
+
+https://github.com/sebastianruder/NLP-progress
+
+This document aims to track the progress in Natural Language Processing (NLP) and give an overview of the state-of-the-art across the most common NLP tasks and their corresponding datasets.
+
 #### baseline
 
 https://github.com/dpressel/baseline
