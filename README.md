@@ -393,4 +393,9 @@ http://bdd-data.berkeley.edu/
 
 UC Berkeley 发布了迄今为止规模最大、最多样化的开放驾驶视频数据集——BDD100K。该数据集共包含 10 万个视频，BAIR 研究者在视频上采样关键帧，并为这些关键帧提供注释。此外，BAIR 还将在 CVPR 2018 自动驾驶 Workshop 上基于其数据举办三项挑战赛。
 
+#### 世界银行数据资源
+
+https://datacatalog.worldbank.org/
+
+
 ---
