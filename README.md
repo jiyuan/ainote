@@ -352,6 +352,12 @@ A curated list of automated machine learning papers, articles, tutorials, slides
 
 https://github.com/markdtw/awesome-architecture-search
 
+#### automl webpage and book
+
+https://www.automl.org/
+
+https://www.automl.org/book/
+
 #### auto-sklearn
 
 https://github.com/automl
