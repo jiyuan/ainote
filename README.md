@@ -342,6 +342,16 @@ https://github.com/goodfeli/dlbook_notation
 
 ### 七、自动机器学习资源
 
+#### Awesome-AutoML-Papers
+
+https://github.com/hibayesian/awesome-automl-papers
+
+A curated list of automated machine learning papers, articles, tutorials, slides and projects.
+
+#### Awesome Architecture Search
+
+https://github.com/markdtw/awesome-architecture-search
+
 #### auto-sklearn
 
 https://github.com/automl
@@ -359,6 +369,7 @@ https://github.com/dotnet/machinelearning
 https://github.com/mlperf/reference
 
 Reference implementations of MLPerf benchmarks
+
 
 ---
 
