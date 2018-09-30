@@ -376,6 +376,11 @@ https://github.com/mlperf/reference
 
 Reference implementations of MLPerf benchmarks
 
+#### TransmogrifAI
+
+https://github.com/salesforce/TransmogrifAI
+
+TransmogrifAI (pronounced trăns-mŏgˈrə-fī) is an AutoML library written in Scala that runs on top of Spark. It was developed with a focus on accelerating machine learning developer productivity through machine learning automation, and an API that enforces compile-time type-safety, modularity, and reuse. Through automation, it achieves accuracies close to hand-tuned models with almost 100x reduction in time.
 
 ---
 
