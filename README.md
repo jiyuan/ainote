@@ -50,6 +50,12 @@ This package contains:
 - A set of Python Reinforcement Learning environments powered by the MuJoCo physics engine. See the suite subdirectory.
 - Libraries that provide Python bindings to the MuJoCo physics engine.
 
+#### Graph Nets library
+
+https://github.com/deepmind/graph_nets
+
+Graph Nets is DeepMind's library for building graph networks in Tensorflow and Sonnet.
+
 #### CNTK
 
 https://github.com/Microsoft/CNTK
