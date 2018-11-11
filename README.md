@@ -439,5 +439,10 @@ UC Berkeley 发布了迄今为止规模最大、最多样化的开放驾驶视�
 
 https://datacatalog.worldbank.org/
 
+#### 腾讯800万中文词的NLP数据集
+
+https://ai.tencent.com/ailab/nlp/embedding.html
+
+This corpus provides 200-dimension vector representations, a.k.a. embeddings, for over 8 million Chinese words and phrases, which are pre-trained on large-scale high-quality data. These vectors, capturing semantic meanings for Chinese words and phrases, can be widely applied in many downstream Chinese processing tasks (e.g., named entity recognition and text classification) and in further research.
 
 ---
