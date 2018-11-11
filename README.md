@@ -174,6 +174,14 @@ https://github.com/thunlp/OpenNRE
 
 An open-source framework for neural relation extraction.
 
+#### BERT
+
+https://github.com/google-research/bert
+
+BERT, or Bidirectional Encoder Representations from Transformers, is a new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks.
+
+Our academic paper which describes BERT in detail and provides full results on a number of tasks can be found here: https://arxiv.org/abs/1810.04805.
+
 ---
 
 ### 三、学习资源
