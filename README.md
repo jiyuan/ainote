@@ -271,6 +271,12 @@ These notes are the basis for the readings in CS4650 and CS7650 ("Natural Langua
 
 乔治亚理工大学 Jacob Eisenstein 教授开放了自然语言处理领域的最新教材《Natural Language Processing》
 
+#### YSDA Natural Language Processing course
+
+https://github.com/yandexdataschool/nlp_course
+
+YSDA course in Natural Language Processing
+
 ---
 
 ### 四、区块链项目
