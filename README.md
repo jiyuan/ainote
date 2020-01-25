@@ -293,85 +293,7 @@ YSDA course in Natural Language Processing
 
 ---
 
-### 四、区块链项目
-
-#### Hyperledger
-
-https://github.com/hyperledger/hyperledger
-
-Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies. It is a global collaboration including leaders in finance, banking, Internet of Things, supply chains, manufacturing and Technology. The Linux Foundation hosts Hyperledger under the foundation.
-
-#### 区块链技术指南
-
-https://github.com/yeasy/blockchain_guide
-
-本书希望可以探索区块链概念的来龙去脉，剥茧抽丝，剖析关键技术原理，同时讲解实践应用。在开发相关开源分布式账本平台（如超级账本），以及设计基于区块链的企业方案过程中，笔者积累了一些实践经验，也通过本书一并分享出来，希望能推动区块链技术的早日成熟和更多应用场景的出现。
-
-#### EOS项目
-
-https://github.com/EOSIO/eos
-
-
----
-
-### 五、量化交易
-
-#### awesome-quant
-
-https://github.com/wilsonfreitas/awesome-quant
-
-A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
-
-#### Kungfu Master Trading System
-
-https://github.com/taurusai/kungfu
-
-功夫是 Taurus.ai 团队专为量化交易者设计的低延迟交易执行系统。功夫想要解决两个核心问题：
-- 交易数据实时存储 - 为了追求交易速度，很多情况下交易者不得不放弃存储功能以换取更高的执行速度，这给盘后分析带来很大困难，使分析缺乏必要的数据支持。
-- 交易延迟分析及优化 - 交易者缺乏测量交易延迟的标准化工具，关于延迟的统计数据往往只能凭感觉估算，在缺乏可靠的数据采集手段的情况下，优化工作变得更加艰难。
-
-#### vnpy
-
-https://github.com/vnpy/vnpy
-
-vn.py是基于Python的开源量化交易程序开发框架，起源于国内私募的自主量化交易系统。2015年初项目启动时只是单纯的交易API接口的Python封装。随着业内关注度的上升和社区不断的贡献，目前已经成长为一套全功能的交易程序开发框架，用户群体也日渐多样化，包括私募基金、券商自营和资管、期货资管和子公司、高校研究机构和专业个人投资者等。
-
-#### Deep-Trading
-
-https://github.com/Rachnog/Deep-Trading
-
-Algorithmic trading with deep learning experiments. Now released part one - simple time series forecasting. I plan to implement more sophisticated algorithms and their ensembles with different features, check their performance, train a trading strategy and go live.
-
-#### stock market reinforcement learning
-
-https://github.com/kh-kim/stock_market_reinforcement_learning
-
-This project provides a general environment for stock market trading simulation using OpenAI Gym. Training data is a close price of each day, which is downloaded from Google Finance, but you can apply any data if you want. Also, it contains simple Deep Q-learning and Policy Gradient from Karpathy's post. http://karpathy.github.io/2016/05/31/rl/
-
-#### PyPortfolioOpt
-
-https://github.com/robertmartin8/PyPortfolioOpt
-
-PyPortfolioOpt is a library that implements widely-used classical portfolio optimisation techniques, with a number of experimental features. It is extensive yet easily extensible, and can be useful for both the casual investor and the serious practitioner.
-
-
----
-
-### 六、数学资源
-
-#### Awesome Math
-
-https://github.com/rossant/awesome-math
-
-A curated list of awesome mathematics resources.
-
-#### 一个latex模版
-
-https://github.com/goodfeli/dlbook_notation
-
----
-
-### 七、自动机器学习资源
+### 四、自动机器学习资源
 
 #### Awesome-AutoML-Papers
 
@@ -427,7 +349,7 @@ AdaNet is a lightweight and scalable TensorFlow AutoML framework for training an
 
 ---
 
-### 八、数据资源
+### 五、数据资源
 
 #### 上海交大知识图谱数据
 
