@@ -113,6 +113,12 @@ Keras 是一个用 Python 编写的高级神经网络 API，它能够以 TensorF
 
 ### 二、NLP项目
 
+#### 金融领域自然语言处理研究资源大列表
+
+https://github.com/icoxfog417/awesome-financial-nlp
+
+Researches for Natural Language Processing for Financial Domain.
+
 #### Tracking Progress in Natural Language Processing
 
 https://github.com/sebastianruder/NLP-progress
