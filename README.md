@@ -6,7 +6,7 @@
 
 ### 一、AI项目
 
-#### + Awesome Federated Learning
+#### ++Awesome Federated Learning++
 
 https://github.com/poga/awesome-federated-learning
 
