@@ -6,6 +6,12 @@
 
 ### 一、AI项目
 
+#### + Awesome Federated Learning
+
+https://github.com/poga/awesome-federated-learning
+
+A list of resources releated to federated learning and privacy in machine learning.
+
 #### ONNX
 
 https://github.com/onnx/onnx
